@@ -19,7 +19,7 @@ function delToDo(event) {
 function lineToDo(event) {
   const lineBtn = event.target;
   const li = lineBtn.parentNode;
-  toDoList.classList.toggle(CHECKED_CN);
+  li.classList.toggle(CHECKED_CN);
 }
 
 function saveToDo() {
