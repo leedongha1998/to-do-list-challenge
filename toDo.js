@@ -33,7 +33,7 @@ function showToDo(text) {
   const span = document.createElement("span");
   const newId = toDos.length + 1;
   delBtn.innerText = "❌";
-  lineBtn.innerText = "✔";
+  lineBtn.innerText = "💖";
   lineBtn.addEventListener("click", lineToDo);
   delBtn.addEventListener("click", delToDo);
   span.innerText = text;
